@@ -1,4 +1,4 @@
-# [Bootstrap Table](http://bootstrap-table.wenzhixin.net.cn)
+# [Bootstrap Table](https://bootstrap-table.com)
 
 [![Build Status](https://travis-ci.org/wenzhixin/bootstrap-table.svg)](https://travis-ci.org/wenzhixin/bootstrap-table)
 [![GitHub version](https://badge.fury.io/gh/wenzhixin%2Fbootstrap-table.svg)](http://badge.fury.io/gh/wenzhixin%2Fbootstrap-table)
@@ -14,7 +14,7 @@ An extended Bootstrap table with radio, checkbox, sort, pagination, extensions a
 
 To get started, check out:
 
-* [Docs](http://bootstrap-table.wenzhixin.net.cn)
+* [Docs](https://bootstrap-table.com)
 * [Examples](https://github.com/wenzhixin/bootstrap-table-examples)
 * [Questions/Helps](http://stackoverflow.com/questions/tagged/bootstrap-table)
 * [问题/帮助](http://segmentfault.com/t/bootstrap-table)
@@ -24,11 +24,11 @@ To get started, check out:
 
 ## LICENSE
 
-**NOTE:** Bootstrap Table is licensed under the [The MIT License](https://github.com/wenzhixin/bootstrap-table/blob/master/LICENSE). Completely free, you can arbitrarily use and modify this plugin. If this plugin is useful to you, you can **Star** this repo, your support is my biggest motive force, thanks.
+**NOTE:** Bootstrap Table is licensed under [The MIT License](https://github.com/wenzhixin/bootstrap-table/blob/master/LICENSE). Completely free, you can arbitrarily use and modify this plugin. If this plugin is useful to you, you can **Star** this repo, your support is my biggest motive force, thanks.
 
 ## Features
 
-* Created for Bootstrap 3 (Bootstrap 2 supported)
+* Created for Twitter Bootstrap (All versions supported)
 * Responsive web design
 * Scrollable Table with fixed headers
 * Fully configurable
@@ -78,13 +78,13 @@ For feature requests, bug reports or submitting pull requests, please ensure you
 
 As stated above, please read [CONTRIBUTING.md](https://github.com/wenzhixin/bootstrap-table/blob/master/CONTRIBUTING.md), especially [Bug Reports](https://github.com/wenzhixin/bootstrap-table/blob/master/CONTRIBUTING.md#bug-reports)
 
-And as stated there, please provide jsFiddle when creating issues!
+And as stated there, please provide an [Online Example](https://live.bootstrap-table.com) when creating issues!
 
 It's really saves much time.
 
-You can also use these for templates:
+You can also use our examples template via Load Examples button:
 
-[jsFiddle Bootstrap Table](http://bootstrap-table.wenzhixin.net.cn/examples/#basic)
+[Online Editor](https://live.bootstrap-table.com/)
 
 Your feedback is very appreciated!
 
@@ -104,7 +104,7 @@ Look at the [Change Log](https://github.com/wenzhixin/bootstrap-table/blob/maste
 To build bootstrap-table locally please run:
 
 ```
-npm run grunt
+npm run build
 ```
 
 Result will appear in `dist` directory.
