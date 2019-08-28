@@ -95,7 +95,7 @@ $.BootstrapTable = class extends $.BootstrapTable {
 
     if (exportTypes.length === 1) {
       this.$export = $(`
-      <div class="export">
+      <div class="export btn-group">
       <button class="${this.constants.buttonsClass}"
       aria-label="Export"
       type="button"
@@ -108,7 +108,9 @@ $.BootstrapTable = class extends $.BootstrapTable {
 
       this.updateExportButton()
 
-      $btnGroup.click(e => {
+      let $btnExport = $this.$export.find('button');
+
+      $btnExport.click(e => {
         e.preventDefault()
 
         const type = exportTypes[0]
